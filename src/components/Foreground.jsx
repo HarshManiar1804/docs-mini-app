@@ -103,7 +103,7 @@ const Foreground = () => {
               className="border border-zinc-700 bg-zinc-800 text-white p-2 rounded w-full mt-3 outline-none focus:ring-2 focus:ring-zinc-500"
             />
             <select
-              value={newCard.fileType}
+              value={newCard.fileUnit}
               onChange={(e) =>
                 setNewCard({ ...newCard, fileUnit: e.target.value })
               }
