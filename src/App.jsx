@@ -1,12 +1,12 @@
 import "./App.css";
-
+import Background from "./components/Background";
+import Foreground from "./components/Foreground";
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-amber-400">
-        Hello world!
-      </h1>
-    </>
+    <div className="relative h-screen w-full bg-zinc-800">
+      <Background />
+      <Foreground />
+    </div>
   );
 }
 
